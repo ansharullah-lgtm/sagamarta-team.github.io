@@ -5,54 +5,103 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Arial', sans-serif;
   line-height: 1.6;
   background-color: #f4f4f4;
 }
 
 header {
-  background: #333;
+  background: #006994;
   color: #fff;
-  padding: 1rem 0;
+  padding: 1rem;
   text-align: center;
 }
 
-nav ul {
+header .logo h1 {
+  font-size: 2.5rem;
+}
+
+header nav ul {
   list-style: none;
   display: flex;
   justify-content: center;
+  padding: 1rem 0;
 }
 
-nav ul li {
-  margin: 0 1rem;
+header nav ul li {
+  margin: 0 2rem;
 }
 
-nav ul li a {
+header nav ul li a {
   color: #fff;
   text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
 
-section {
-  padding: 2rem;
+.home-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem;
+  background: #e0f7fa;
+}
+
+.home-section .home-content {
+  width: 50%;
+}
+
+.home-section .home-content h2 {
+  font-size: 2.5rem;
+  color: #006994;
+}
+
+.home-section .home-content p {
+  font-size: 1.2rem;
+}
+
+.home-section .home-image img {
+  width: 50%;
+  border-radius: 10px;
+}
+
+.about-section, .projects-section, .contact-section {
+  padding: 3rem;
   text-align: center;
 }
 
-#projects .project {
-  display: inline-block;
-  width: 30%;
-  margin: 1rem;
+.about-section h2, .projects-section h2, .contact-section h2 {
+  font-size: 2.5rem;
+  color: #006994;
 }
 
-.project img {
+.about-images img {
+  width: 45%;
+  margin: 1rem;
+  border-radius: 10px;
+}
+
+.project-card {
+  display: inline-block;
+  width: 45%;
+  margin: 2rem;
+  background: #ffffff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-card img {
   width: 100%;
-  height: auto;
   border-radius: 8px;
 }
 
 footer {
-  background: #333;
+  background: #006994;
   color: #fff;
-  text-align: center;
   padding: 1rem;
-  margin-top: 2rem;
+  text-align: center;
+}
+
+footer p {
+  font-size: 1rem;
 }
