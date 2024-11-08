@@ -1,3 +1,3 @@
-document.addEventListener("DOMContentLoaded", function () {
-  console.log("Sagamarta Team Website Loaded.");
+document.addEventListener('DOMContentLoaded', function() {
+  console.log("Selamat datang di website Sagamarta Team!");
 });
